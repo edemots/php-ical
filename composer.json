@@ -1,0 +1,24 @@
+{
+  "name": "edemots/php-ical",
+  "description": "An iCalendar PHP wrapper based on the RFC 5545",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eliot Demots",
+      "email": "eliot@demots.fr"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Edemots\\PHPIcal\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Edemots\\PHPIcal\\Tests\\": "tests/"
+    }
+  },
+  "require": {}
+}
